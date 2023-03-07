@@ -77,6 +77,11 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("ᴏᴜʀ ʙᴏᴛs", url="https://t.me/ThanimaiNetwork/11")
                     ],
                     [
+                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                         
+                    ],
+                    [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/thanimaibots"),
                         InlineKeyboardButton(" Support Group", url="https://t.me/Thanimaisupport")
                     ]
